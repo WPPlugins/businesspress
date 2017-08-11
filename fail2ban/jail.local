@@ -1,0 +1,9 @@
+[wordpress]
+enabled = true
+filter = wordpress
+logpath = /var/log/auth.log
+port = http,https
+
+maxretry = 12
+findtime = 1200
+bantime = 1200
